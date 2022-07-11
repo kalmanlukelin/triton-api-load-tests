@@ -1,0 +1,15 @@
+# Java-related:
+
+target/
+.idea/
+
+# Python-related:
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Project-specific:
+
+test-state-*/

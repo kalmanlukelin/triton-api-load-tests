@@ -1,0 +1,8 @@
+#!/bin/bash
+exec 2>&1
+
+# =============================================================================
+# Launch Chainsaw2
+# =============================================================================
+chainsaw2 --compartment="ocid1.tenancy.oc1..aaaaaaaalpuzhq3k33vgpdwzal3tffjcj2ykgkw32ztlqnmwqxup3ptr4lpa" \
+          --namespace="vision-service-model-load-tests"
